@@ -1,3 +1,4 @@
+// Ce code configure la connexion à une base de données MongoDB en utilisant Mongoose
 const mongoose = require("mongoose");
 const databaseUrl =
   process.env.DATABASE_URL ||
